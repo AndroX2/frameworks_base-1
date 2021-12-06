@@ -40,7 +40,8 @@ public class PixelPropsUtils {
     private static final String[] packagesToChangePixel5 = {
             "com.google.android.tts",
             "com.google.android.googlequicksearchbox",
-            "com.google.android.apps.recorder"
+            "com.google.android.apps.recorder",
+            "com.google.android.apps.googleassistant"
     };
 
    private static final String[] packagesToChangeCOD = {
@@ -63,7 +64,7 @@ public class PixelPropsUtils {
     private static final Map<String, ArrayList<String>> propsToKeep;
     private static final String[] extraPackagesToChange = {
             "com.android.vending",
-            "com.breel.wallpapers20"
+	            "com.breel.wallpapers20"
     };
 
     private static ArrayList<String> allProps = new ArrayList<>(Arrays.asList("BRAND", "MANUFACTURER", "DEVICE", "PRODUCT", "MODEL", "FINGERPRINT"));
